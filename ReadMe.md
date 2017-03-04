@@ -12,9 +12,9 @@ world.sendEntityMessage(
   barColour
 )
 
-barName is a unique identifier for your bar. Store it to modify and remove the bar.
-barPercentage is a value between 0 and 1.
-barColour is a colour in format of {R, G, B, A}. Values from 0 to 255.
+barName is a unique identifier for your bar. Store it to modify and remove the bar.  
+barPercentage is a value between 0 and 1.  
+barColour is a colour in format of {R, G, B, A}. Values from 0 to 255.  
 
 * Removing a bar :
 
