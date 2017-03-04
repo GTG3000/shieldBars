@@ -1,0 +1,7 @@
+[
+  {
+    "op": "add",
+    "path": "/statusControllerSettings/primaryScriptSources/-",
+    "value": "/stats/player_primary_bars.lua"
+  }
+]

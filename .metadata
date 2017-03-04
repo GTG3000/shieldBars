@@ -1,0 +1,10 @@
+{
+  "author" : "GTG3000",
+  "description" : "Adds ability to display bars over player head through messages.",
+  "friendlyName" : "Shield Bar API",
+  "link" : "",
+  "name" : "shieldBars",
+  "path" : ".",
+  "steamContentId" : "",
+  "version" : ""
+}
