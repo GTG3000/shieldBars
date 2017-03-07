@@ -3,10 +3,12 @@ local barsOldInit = init
 function init()
 	barsOldInit()
 	self.barsList = {}
-	message.setHandler("setBar", function(_, _, barName, barPercentage, barColor)
+	message.setHandler("setBar", function(_, l, barName, barPercentage, barColor)
+		if not l then return end
 		setBar(barName,barPercentage,barColor)
     end)
-	message.setHandler("removeBar", function(_, _, barName)
+	message.setHandler("removeBar", function(_, l, barName)
+		if not l then return end
 		removeBar(barName)
     end)
 	
